@@ -8,6 +8,11 @@ BRANDS = []
     BRANDS << brand
   end
 
+def initialize(brand)
+    self.brand=(brand)
+  end
+  
+  
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
